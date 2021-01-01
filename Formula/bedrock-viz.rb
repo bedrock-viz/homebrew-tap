@@ -1,11 +1,11 @@
 class BedrockViz < Formula
     desc "Minecraft Bedrock Edition World Visualization & Reporting Tool with Web App"
     homepage "https://github.com/bedrock-viz/bedrock-viz"
-    url "https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.2/bedrock-viz_v0.1.2_macOS.tar.gz"
-    sha256 "520128b816c3a6d81f0945589b1ac6d36842e5ae9f910fac6818c3ee8863254a"
+    url "https://github.com/bedrock-viz/bedrock-viz/releases/download/v0.1.3/bedrock-viz_v0.1.3_macOS.tar.gz"
+    sha256 "cbeeb9df7305f9c5dc14f040917789e44a4cf7b35b92fc5e4bd70b9f38ce3523"
     head "https://github.com/bedrock-viz/bedrock-viz.git"
   
-    version "v0.1.2"
+    version "v0.1.3"
   
     depends_on "cmake" => :build
     depends_on "libpng"
